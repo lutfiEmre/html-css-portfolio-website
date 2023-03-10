@@ -1,25 +1,26 @@
-# My Project
+# HTML/CSS Portfolio Website
 
-This is **my project** and it's *awesome*!
+This project demonstrates how to create a personal portfolio website using HTML and CSS.
 
-## Features
+## Table of Contents
 
-- One
-- **Two**
-- Three
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
-To use this project, just `git clone` it and run `npm install`.
+To use this project, simply clone the repository and open `index.html` in your web browser.
 
 ## Usage
 
-To run the project, use the `npm start` command.
+This project can be used as a starting point for developers who want to create a personal portfolio website using HTML and CSS.
 
 ## Contributing
 
-If you'd like to contribute to the project, please fork the repository and make a pull request.
+If you'd like to contribute to the project, please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
