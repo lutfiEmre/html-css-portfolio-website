@@ -175,7 +175,7 @@
     .home-text-color{
         padding-left: 25px;
         -webkit-text-fill-color: white;
-        -webkit-text-stroke: 5px rgba(117, 0, 255, 0.31);
+        -webkit-text-stroke: 5px rgba(117, 0, 255, 0.30);
         font-size: 100px;
         text-transform: none;
     }
