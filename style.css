@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@600;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Righteous&family=Secular+One&family=Ubuntu&display=swap');
+@import "responsive.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    scroll-behavior: smooth;
+    background: #1a172c;
+}
+a{
+    scroll-behavior: smooth;
+}
+/*NAV CONTAİNER EN ÜST KISIM*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .container .menu li,a{
+    list-style: none;
+    scroll-behavior: smooth;
+    font-size: 18           px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.52);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 8px;
+}
+nav .container{
+    margin-top: 1%;
+}
+nav .container .menu li,a:hover{
+    color: white;
+}
+nav .container .logo{
+    margin-right: 20em;
+    padding-right: 150px;
+}
+#home{
+    scroll-behavior: smooth;
+}
+#Skills{
+    scroll-behavior: smooth;
+}
+#MeetMe{
+    scroll-behavior: smooth;
+}
+nav .container .logo img{
+    background-image: url("img/rainbow2.png");
+    width: auto;
+    animation-name: emrelogo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linaer;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    max-height: 120px;
+    height: 120px;
+}
+nav .container .logo img:hover{
+    animation-play-state: paused;
+}
+@keyframes emrelogo {
+    0%{
+        background-image: url("img/rainbow2.png");
+    }
+    25%{
+        background-image: url("img/rainbow3.png");
+    }
+    50%{
+        background-image: url("img/rainbow4.png");
+    }
+    75%{
+        background-image: url("img/rainbow5.png");
+    }
+    100%{
+        background-image: url("img/rainbow6.png");
+    }
+}
+
+/*-----------------*/
+/*Hello ım emrelutfi + yazı + logo*/
+main section.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-text-color{
+    padding-left: 25px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 5px rgba(117, 0, 255, 0.31);
+    font-size: 120px;
+    text-transform: none;
+}
+section.home .container .home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    text-transform: uppercase;
+    margin-left: -0px;
+    margin-top: 10px;
+}
+section.home .container .home-text h1{
+    font-weight: 700;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 5px rgba(92, 51, 141, 0.31);
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+section.home .container .home-text p{
+    padding-top: -20px;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+section.home .container .home-text .spotify-listening{
+    border: 2px solid rgb(33, 220, 33);
+    background: rgb(15, 192, 15);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+section.home .container .home-text .spotify-listening:hover{
+    border: 2px solid transparent;
+    background: rgb(21, 171, 21);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+section.home .container .home-text .spotify-listening a{
+    color: white;
+}
+section.home .container .home-text .home-picture{
+    position: relative;
+}
+section.home .container .home-text .home-picture img{
+    position: absolute;
+    border: 12px solid rgba(50, 45, 86, 0.57);
+    border-radius: 100%;
+    left: 900px;
+    box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.57);
+    top: -250px;
+    max-height: 500px;
+    margin-left: -100px;
+    height: 250px;
+    width: 250px;
+    animation-name: animlogo;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+section.home .container .home-text .home-picture img:hover{
+    animation-play-state: paused;
+}
+@keyframes animlogo {
+    0%{
+        position: absolute;
+        border: 12px solid rgb(50, 45, 86);
+        filter: drop-shadow(1px 2px 5px rgba(127, 22, 148, 0.41));
+        box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.9);
+        top: -160px;
+        left: 900px;
+    }
+    20%{
+        position: absolute;
+        border: 12px solid rgb(50, 45, 86);
+        filter: drop-shadow(1px 2px 5px rgba(127, 22, 148, 0.41));
+        box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.9);
+        top: -180px;
+        left: 890px;
+    }
+    40%{
+        position: absolute;
+        border: 12px solid rgb(50, 45, 86);
+        filter: drop-shadow(1px 2px 5px rgba(127, 22, 148, 0.41));
+        box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.9);
+        top: -175px;
+        left: 900px;
+    }
+    60%{
+        position: absolute;
+        border: 12px solid rgb(50, 45, 86);
+        filter: drop-shadow(1px 2px 5px rgba(127, 22, 148, 0.41));
+        box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.9);
+        top: -180px;
+        left: 910px;
+    }
+    80%{
+        position: absolute;
+        border: 12px solid rgb(50, 45, 86);
+        filter: drop-shadow(1px 2px 5px rgba(127, 22, 148, 0.41));
+        box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.9);
+        top: -185px;
+        left: 920px;
+    }
+    100%{
+        position: absolute;
+        border: 12px solid rgb(50, 45, 86);
+        filter: drop-shadow(1px 2px 5px rgba(127, 22, 148, 0.41));
+        box-shadow: -5px 10px 2px 5px rgba(37, 29, 74, 0.9);
+        top: -180px;
+        left: 900px;
+    }
+}
+
+
+/*-----------------*/
+
+/*#home devamı kutucuklar*/
+main section.midpage{
+    margin-left: -1000px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.midpage .cards{
+    display:grid;
+    margin-left: 1000px;
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+    grid-template-columns: auto auto;
+}
+section.midpage .cards .kart{
+    display: flex;
+    justify-content: center;
+    background: #2D2030;
+    max-height: 250px;
+    max-width: 500px;
+    box-shadow: 12px 10px 1px 10px #161226;
+    border-bottom: 15px solid #372963;
+    border-radius: 15px;
+    width: 700px;
+    height: 500px;
+}
+section.midpage .cards .kart:hover{
+    animation-name: emre;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background: #372963;
+    animation-fill-mode: both;
+}
+@keyframes emre {
+    0%,100%{
+        background: rgba(55, 41, 99, 0.25);
+        border: 2px solid rgba(0, 0, 0, 0.27);
+    }
+    25%{
+        background: rgba(55, 41, 99, 0.25);
+    }
+    50%{
+        background: rgba(55, 41, 99, 0.5);
+    }
+    75%{
+        background: rgba(55, 41, 99, 0.75);
+    }
+    100%{
+        background: #372963;
+    }
+}
+
+.boseleman{
+    position: absolute;
+    z-index: 250;
+    top: 420px;
+    width: 25px;
+    height: 25px;
+}
+
+.midpage .cards .kart h1{
+    display: block;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.midpage .cards .kart p{
+    position: absolute;
+    width: 500px;
+    margin-top: 110px;
+    font-size: 15px;
+    margin-left: 20px;
+    display: block;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------*/
+/*SKİLLS KISMI*/
+section.skills{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.skills h1{
+    display: block;
+    color: white;
+    margin-right: 800px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+section.skills hr{
+    margin-top: 150px;
+    color: grey;
+    background: grey;
+    opacity: 0.5;
+    position: absolute;
+    display: block;
+    width: 1060px;
+}
+.yukselt{
+    margin-top: 150px;
+}
+section.skills .skill{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    margin-top: 650px;
+    margin-right: 0px;
+    grid-column-gap: 50px;
+    grid-row-gap: 60px;
+    grid-template-columns: auto auto auto;
+}
+section.skills .skill .kutucuk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2D2030;
+    box-shadow: 12px 10px 1px 10px #161226;
+    border-bottom: 15px solid #372963;
+    height: 105px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 320px;
+}
+section.skills .skill .kutucuk img{
+    position: absolute;
+    height: auto;
+    padding-right: 4px;
+    width: 55px;
+    margin-left: -50px;
+    margin-top: 5px;
+}
+section.skills .skill .kutucuk p{
+    color: white;
+    margin-right: -60px;
+    margin-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+section.skills .skill .kutucuk:hover p{
+    color: white;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-emphasis: #1a172c;
+    -webkit-animation: infinite;
+    perspective: 10px;
+}
+#fixafter p{
+    margin-right: 15px;
+    width: 480px;
+}
+
+section.skills .skill .kutucuk:hover{
+    perspective: 300px;
+    animation-name: emre;
+    transition-duration: 2s;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background: #372963;
+    animation-fill-mode: both;
+}
+/*--------------*/
+/*----------------------------*/
+/*foooter*/
+footer{
+    margin-top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #372963;;
+    width: 1300px;
+    height: 150px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 25px solid #19104f;
+}
+
+
+#homeicon{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -20px;
+    height: 300px;
+}
+.footer .icons{
+    display: grid;
+    margin-left: 770px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+}
+
+.footer .icons img{
+    height: auto;
+    width: 43px;
+}
+
+.footer .icons a img:hover{
+    transition: .5s;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    transform: rotateZ(360deg)
+}
+.footer h1{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 790px;
+}
+.footer h1 span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer h1 span img{
+    height: 45px;
+    margin-top: 8px;
+    width: 45px;
+    display: inline;
+}
+.footer h1 span img:hover{
+    transition: .5s;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    transform: rotateZ(360deg)
+}
+
+/*-----------------*/
+/*ürün yerleştirmeler*/
+
+#urunyerlestirme1{
+    display: none;
+    opacity: 0.5;
+    position: absolute;
+    height: auto;
+    margin-top: 560px;
+    width: 450px;
+}
+#urunyerlestirme2{
+    position: absolute;
+    margin-right: 390px;
+    height: auto;
+    width: 150px;
+}

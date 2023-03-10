@@ -1,0 +1,762 @@
+@media only screen and (max-width: 1869px){
+    .footer h1{
+        font-size: 40px;
+    }
+}
+
+}@media only screen and (max-width: 1761px){
+    .footer h1{
+        font-size: 20px;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 50px;
+    }
+    .footer .icons{
+        margin-left: 890px;
+    }
+}
+
+@media only screen and (max-width: 1662px){
+    .footer h1{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .footer h1 span img{
+        width: 30px;
+        margin-top: 15px;
+        height: 30px;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 40px;
+    }
+    .footer .icons{
+        margin-left: 780px;
+    }
+    footer{
+        margin-top: 800px;
+    }
+}
+
+@media only screen and (max-width: 1662px){
+}
+@media only screen and (max-width: 1526px){
+    .footer h1{
+        font-size: 33px;
+        margin-left: 102px;
+    }
+    .footer h1 span img{
+        width: 30px;
+        margin-top: 15px;
+        height: 25px;
+    }
+    #homeicon{
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -50px;
+        height: 250px;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 35px;
+    }
+    .footer .icons{
+        margin-left: 640px;
+    }
+    footer{
+        margin-top: 800px;
+    }
+    footer .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #372963;;
+        width: 1100px;
+        height: 150px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom: 25px solid #19104f;
+    }
+}
+@media only screen and (max-width: 1448px){
+    section.home .container .home-text .home-picture img{
+        height: 320px;
+        width: 320px;
+    }
+    section.midpage .cards .kart{
+        max-height: 400px;
+        max-width: 600px;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        border-radius: 15px;
+        width: 700px;
+        height: 1000px;
+    }
+    #urunyerlestirme1{
+        position: absolute;
+        height: auto;
+        margin-top: 650px;
+        margin-left: 150px;
+        width: 320px;
+    }
+    .midpage .cards .kart h1{
+        display: block;
+        margin-top: 25px;
+        font-size: 35px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .midpage .cards .kart p {
+        width: 580px;
+        margin-top: 105px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    #kart3{
+        height: 350px;
+    }
+    #fixafter{
+        height: 350px;
+    }
+    #fixafter p{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-left: -10px;
+        max-width: 1000px;
+        width: 550px;
+    }
+    section.skills h1{
+        margin-right: 900px;
+        font-size: 120px;
+    }
+    #urunyerlestirme2{
+        position: absolute;
+        height: auto;
+        margin-left: -50px;
+        width: 200px;
+    }
+    section.skills .skill .kutucuk{
+        width: 350px;
+    }
+    .footer h1{
+        display: none;
+    }
+    #homeicon{
+        position: absolute;
+        margin-left: -750px;
+        margin-top: -20px;
+        height: 300px;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 80px;
+    }
+    .footer .icons{
+        margin-left: 280px;
+    }
+    footer{
+        margin-top: 800px;
+    }
+}
+@media only screen and (max-width: 1451px){
+    section.home .container .home-text .home-picture img{
+        height: 250px;
+        width: 250px;
+    }
+    #urunyerlestirme2{
+        position: absolute;
+        height: auto;
+        margin-left: 00px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 1253px){
+    .home-text-color{
+        padding-left: 25px;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 5px rgba(117, 0, 255, 0.31);
+        font-size: 100px;
+        text-transform: none;
+    }
+    section.home .container .home-text h1{
+        font-size: 60px;
+    }
+    section.home .container .home-text .home-picture img{
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 70px;
+        height: 200px;
+        width: 200px;
+    }
+    section.home .container .home-text .spotify-listening{
+        border: 2px solid rgb(33, 220, 33);
+        background: rgb(15, 192, 15);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    section.midpage .cards .kart{
+        max-height: 400px;
+        max-width: 400px;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        border-radius: 15px;
+        width: 700px;
+        height: 1000px;
+    }
+    #urunyerlestirme1{
+        position: absolute;
+        height: auto;
+        margin-top: 570px;
+        margin-left: 50px;
+        width: 320px;
+    }
+    .midpage .cards .kart h1{
+        display: block;
+        margin-top: 25px;
+        font-size: 25px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .midpage .cards .kart p {
+        position: absolute;
+        width: 380px;
+        margin-top: 105px;
+        font-size: 20px;
+    }
+    section.skills h1{
+        display: block;
+        color: white;
+        margin-top: 30px;
+        margin-right: 500px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 120px;
+    }
+    #kart3{
+        height: 350px;
+    }
+    #fixafter{
+        height: 350px;
+    }
+    #fixafter p{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-left: 15px;
+        max-width: 1000px;
+        width: 380px;
+    }
+    #urunyerlestirme2{
+        position: absolute;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 400px;
+        width: 150px;
+    }
+    section.skills .skill .kutucuk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2D2030;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        height: 125px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 250px;
+    }
+    section.skills .skill .kutucuk img{
+        position: absolute;
+        height: auto;
+        padding-right: 4px;
+        width: 50px;
+        margin-left: -50px;
+        margin-top: -5px;
+    }
+    section.skills .skill .kutucuk p{
+        color: white;
+        margin-right: -60px;
+        margin-top: 2px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .footer h1{
+        display: none;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 70px;
+    }
+    section.skills hr{
+        margin-top: 150px;
+        color: grey;
+        background: grey;
+        opacity: 0.5;
+        position: absolute;
+        display: block;
+        width: 850px;
+    }
+    .footer .icons{
+        margin-left: 200px;
+    }
+    footer{
+        margin-top: 800px;
+    }
+    #homeicon{
+        position: absolute;
+        margin-left: -650px;
+        margin-top: -20px;
+        height: 200px;
+    }
+    footer .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #372963;;
+        width: 880px;
+        height: 150px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom: 25px solid #19104f;
+    }
+}
+@media only screen and (max-width: 929px){
+    nav .container .logo{
+        margin-right: -10em;
+        padding-right: 150px;
+    }
+    nav .container .logo img{
+        background-image: url("img/rainbow2.png");
+        background-repeat: no-repeat;
+        height: 240px;
+    }
+    nav .container .menu li{
+        display: none;
+    }
+    .home-text-color{
+        padding-left: 25px;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 5px rgba(117, 0, 255, 0.31);
+        font-size: 60px;
+        text-transform: none;
+    }
+    section.home .container .home-text{
+        margin-left: 20px;
+    }
+    section.home .container .home-text h1{
+        font-size: 60px;
+    }
+    section.home .container .home-text p{
+        padding-top: 50px;
+        font-weight: 400;
+        font-size: 18px;
+        max-width: 600px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    section.home .container .home-text .home-picture img{
+        position: absolute;
+        margin-left: -450px;
+        margin-top: 150px;
+        height: 150px;
+        width: 150px;
+    }
+    section.home .container .home-text .spotify-listening{
+        display: none;
+        border: 2px solid rgb(33, 220, 33);
+        background: rgb(15, 192, 15);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    section.midpage .cards .kart{
+        max-height: 530px;
+        max-width: 300px;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        border-radius: 15px;
+        width: 700px;
+        height: 1000px;
+    }
+    #urunyerlestirme1{
+        position: absolute;
+        height: auto;
+        margin-top: 480px;
+        margin-left: 50px;
+        width: 150px;
+    }
+    .midpage .cards .kart h1{
+        display: block;
+        margin-top: 15px;
+        font-size: 25px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .midpage .cards .kart p {
+        position: absolute;
+        width: 280px;
+        margin-top: 105px;
+        font-size: 20px;
+    }
+    section.skills h1{
+        display: block;
+        color: white;
+        margin-top: 50px;
+        margin-right: 300px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 80px;
+    }
+    #fixafter p{
+        margin-left: 15px;
+        width: 280px;
+    }
+    #kart3{
+        height: 370px;
+    }
+    #fixafter{
+        height: 370px;
+    }
+    #ozelkart{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    #urunyerlestirme2{
+        position: absolute;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 450px;
+        width: 110px;
+    }
+    section.skills .skill .kutucuk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2D2030;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        height: 125px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 180px;
+    }
+    section.skills .skill .kutucuk img{
+        position: absolute;
+        height: auto;
+        padding-right: 2px;
+        width: 40px;
+        margin-left: -50px;
+        margin-top: -5px;
+    }
+    section.skills .skill .kutucuk p{
+        color: white;
+        margin-right: -60px;
+        margin-top: 2px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .footer h1{
+        display: none;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 50px;
+    }
+    .footer .icons{
+        grid-column-gap: 15px;
+        margin-left: 120px;
+    }
+    footer{
+        margin-top: 800px;
+    }
+    #homeicon{
+        position: absolute;
+        margin-left: -470px;
+        margin-top: -20px;
+        height: 130px;
+    }
+    section.skills hr{
+        margin-top: 180px;
+        color: grey;
+        background: grey;
+        opacity: 0.5;
+        position: absolute;
+        display: block;
+        width: 650px;
+    }
+    footer .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #372963;;
+        width: 600px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom: 25px solid #19104f;
+    }
+
+}
+@media only screen and (max-width: 659px){
+    .scroll{
+        margin-left: -70px;
+    }
+    nav{
+        margin-right: 120px;
+    }
+    nav .container .logo img{
+        background-image: url("img/rainbow2.png");
+        background-repeat: no-repeat;
+        height: 240px;
+    }
+    nav .container .logo{
+        margin-left: 160px;
+    }
+    nav .container .menu li{
+        display: none;
+    }
+    .home-text-color{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: -280px;
+        padding-left: 25px;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 5px rgba(117, 0, 255, 0.31);
+        font-size: 60px;
+        text-transform: none;
+    }
+    section.home .container .home-text{
+        margin-left: 150px;
+    }
+    section.home .container .home-text h1{
+        position: absolute;
+        margin-left: -50px;
+        font-size: 50px;
+    }
+    section.home .container .home-text h1 span{
+        position: absolute;
+        margin-left: -30px;
+        margin-top: -5px;
+        font-size: 50px;
+    }
+    section.home .container .home-text p{
+        margin-top: 150px;
+        font-weight: 400;
+        width: 300px;
+        margin-left: -70px;
+        font-size: 12px;
+        max-width: 600px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    section.home .container .home-text .home-picture img{
+        position: absolute;
+        margin-left: -955px;
+        margin-top: 250px;
+        height: 250px;
+        width: 250px;
+    }
+    section.home .container .home-text .spotify-listening{
+        display: none;
+        border: 2px solid rgb(33, 220, 33);
+        background: rgb(15, 192, 15);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    section.midpage .cards{
+        grid-template-columns: auto;
+    }
+    main section.midpage{
+        margin-top: 400px;
+        margin-left: -950px;
+    }
+    section.midpage .cards .kart{
+        max-height: 530px;
+        max-width: 300px;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        border-radius: 15px;
+        width: 700px;
+        height: 1000px;
+    }
+    #kart1 h1{
+        font-size: 23px;
+    }
+    #fixafter{
+        max-height: 340px;
+        max-width: 300px;
+    }
+    #kart1{
+
+    }
+    #kart2{
+        max-height: 420px;
+        max-width: 300px;
+    }
+    #kart3 h1{
+        font-size: 20px;
+    }
+    #kart3 p{
+        padding-top: 20px;
+    }
+    #kart3{
+        max-height: 460px;
+        height: 430px;
+        max-width: 300px;
+    }
+    #urunyerlestirme1{
+        position: absolute;
+        height: auto;
+        margin-top: 565px;
+        margin-left: 0px;
+        width: 150px;
+    }
+    .midpage .cards .kart h1{
+        display: block;
+        margin-top: 15px;
+        font-size: 25px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    #ozelkart{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .midpage .cards .kart p {
+        position: absolute;
+        width: 280px;
+        margin-top: 105px;
+        font-size: 20px;
+    }
+    section.skills{
+        margin-top: 0px;
+    }
+    section.skills h1{
+        display: block;
+        color: white;
+        margin-top: 50px;
+        margin-right: 90px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+    }
+    #fixafter p{
+        padding-left: 2px;
+        font-size: 20px;
+        width: 295px;
+    }
+
+    #urunyerlestirme2{
+        position: absolute;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 520px;
+        width: 70px;
+    }
+    section.skills hr{
+        margin-top: 150px;
+        color: grey;
+        background: grey;
+        opacity: 0.5;
+        margin-left: 50px;
+        position: absolute;
+        display: block;
+        width: 310px;
+    }
+    section.skills .skill{
+        position: absolute;
+        margin-top: 490px;
+        grid-column-gap: 50px;
+        justify-content: normal;
+        margin-left: 50px;
+        align-items: normal;
+        grid-template-columns: auto auto auto;
+    }
+    section.skills .skill .kutucuk {
+        display: grid;
+        justify-content: normal;
+        align-items: normal;
+        background: #2D2030;
+        box-shadow: 12px 10px 1px 10px #161226;
+        border-bottom: 15px solid #372963;
+        height: 80px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 80px;
+    }
+    section.skills .skill .kutucuk img{
+        justify-self: center;
+        height: auto;
+        width: 30px;
+        margin-left: 25px;
+        margin-top: -30px;
+    }
+    section.skills .skill .kutucuk p{
+        color: white;
+        margin-right: 0px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 9px;
+    }
+    #ozelp{
+        margin-left: 5px;
+    }
+    .footer h1{
+        display: none;
+    }
+    .footer .icons img{
+        height: auto;
+        width: 30px;
+    }
+    .footer .icons{
+        grid-column-gap: 15px;
+        margin-left: 0px;
+    }
+    footer{
+        margin-top: 500px;
+        margin-left: 44px;
+    }
+    #homeicon{
+        display: none;
+        position: absolute;
+        margin-left: -250px;
+        margin-top: -50px;
+        height: 150px;
+    }
+    footer .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #372963;;
+        width: 400px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom: 25px solid #19104f;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+    section.skills .skill{
+        position: absolute;
+        margin-top: 490px;
+        margin-right: -13px;
+        grid-column-gap: 50px;
+        justify-content: normal;
+        margin-left: 50px;
+        align-items: normal;
+        grid-template-columns: auto auto auto;
+    }
+    .footer .icons{
+        grid-column-gap: 15px;
+        margin-left: 20px;
+    }
+    section.home .container .home-text h1 span{
+        position: absolute;
+        margin-left: -50px;
+        margin-top: -20px;
+        font-size: 60px;
+    }
+
+}
